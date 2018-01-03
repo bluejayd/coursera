@@ -1,45 +1,36 @@
- /* Base Styles */
 * {
   box-sizing: border-box;
-}
-body {
   font-family: calibri;
 }
 h1 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-top: 40px;
   text-align: center;
 }
-h2 {
-  text-align: right;
-  font-size: 20px;
-  padding: 10px;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
+.container {
+  border: none;
+  padding: 20px;
+  float: left;
+}
+section {
+  background-color: silver;
   border: 1px solid black;
+}
+h2 {
+  text-align: center;
+  border: 1px solid black;
+  font-size: 20px;
   color: white;
-  width: 100%;
-  height: 100%;
-  float: right;
-  max-width: 100px;
   position: relative;
-  bottom: 10px;
-  right: 25px;
+  width: 125px;
+  left: 1px;
+  bottom: 17px;
+  float: right;
+  padding: 10px;
 }
 p{
-  width: 90%;
-  height: 100%;
-  text-align: justify;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  color: black;
-  font-size: 14px;
-  border: 1px solid black;
-  background-color: silver;
-  padding: 65px 20px 20px 20px;
+  text-align: justify; 
+  border: none;
+  padding: 50px 20px 20px 20px;
 }
 #beef {
   background-color: tomato;
@@ -58,29 +49,21 @@ p{
 /*Desktop Devices */
 @media (min-width: 992px) {
   .col-lg-4 {
-    float: left;
     width: 33.33%;
-    margin-top: 20px;
   }
 }
 /* Tablet Devices */
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
-    float: left;
     width: 50%;
-    margin-top: 20px;
   }
   .col-md-12 {
-    float: left;
-    margin-top: 20px;
     width: 100%;
   }
 }
 /* Mobile Devices*/
 @media (max-width: 767px) {
   .col-sm-12 {
-    float: left;
     width: 100%;
-    margin-top: 20px;
   }
 }
