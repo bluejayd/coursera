@@ -26,6 +26,7 @@ h2 {
   bottom: 17px;
   float: right;
   padding: 10px;
+  border-top: none;
 }
 p{
   text-align: justify; 
